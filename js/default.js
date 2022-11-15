@@ -7,11 +7,11 @@ const projectHeading = [
 ]
 
 const projectImageSrc = [
-  'https://images.pexels.com/photos/9968493/pexels-photo-9968493.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-  'https://images.pexels.com/photos/14185268/pexels-photo-14185268.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-  'https://images.pexels.com/photos/13743846/pexels-photo-13743846.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-  'https://images.pexels.com/photos/12997440/pexels-photo-12997440.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-  'https://images.pexels.com/photos/14186492/pexels-photo-14186492.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'
+  './image/age-calculator.png',
+  './image/credit-card-validation-form.jpg',
+  './image/expenses-chart-component.jpg',
+  './image/intro-section-with-dropdown-navigation.jpg',
+  './image/QR-code-challenge.jpg'
 ]
 
 const projectDetails = {
