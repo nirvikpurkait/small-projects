@@ -1,0 +1,11 @@
+:root {
+  --light-background: #CDCDCD;
+  --light-text: #323232;
+}
+
+body{
+  &.light {
+    background: var(--light-background);
+    color: var(--light-text);
+  }
+}
