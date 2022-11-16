@@ -1,7 +1,4 @@
-:root{
-  --popup-background: #323232;
-  --popup-text: #CDCDCD;
-}
+@import url(./_variables.scss);
 
 .pop-up{
   display: flex;

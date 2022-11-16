@@ -1,8 +1,5 @@
+@import url(./_variables.scss);
 :root {
-  --default-background: #323232;
-  --default-text: #CDCDCD;
-  --red: #FE1919;
-  --blue: #1A40E5;
   font-size: 62.5%;
 }
 
@@ -88,6 +85,7 @@ body main .project .project-image {
   object-fit: cover;
   max-width: 250px;
   min-width: 200px;
+  border-radius: 10px;
 }
 body main .project .project-heading {
   font-size: 2.4rem;

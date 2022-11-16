@@ -1,8 +1,4 @@
-:root {
-  --light-background: #CDCDCD;
-  --light-text: #323232;
-}
-
+@import url(./_variables.scss);
 body.light {
   background: var(--light-background);
   color: var(--light-text);

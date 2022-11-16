@@ -14,6 +14,14 @@ const projectImageSrc = [
   './image/QR-code-challenge.jpg'
 ]
 
+const projectImageAlt = [
+  'An image of an age calculator',
+  'An image of a credit card validaation form',
+  'An image of a expence chart component',
+  'An image of a intro section',
+  'QR code',
+]
+
 const projectDetails = {
   projectHeading, projectImageSrc
 }
@@ -64,4 +72,6 @@ let projectImage = [...document.querySelectorAll('.project-image')];
 
 projectImageSrc.forEach(item => {
   projectImage[projectImageSrc.indexOf(item)].src = item
+  projectImage[projectImageSrc.indexOf(item)].alt = projectImageAlt[projectImageSrc.indexOf(item)]
+  
 })
