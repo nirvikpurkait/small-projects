@@ -1,4 +1,14 @@
-@import url(./_variables.scss);
+:root {
+  --default-background: #323232;
+  --default-text: #CDCDCD;
+  --red: #FE1919;
+  --blue: #1A40E5;
+  --light-background: #CDCDCD;
+  --light-text: #323232;
+  --popup-background: #323232;
+  --popup-text: #CDCDCD;
+}
+
 body.light {
   background: var(--light-background);
   color: var(--light-text);
