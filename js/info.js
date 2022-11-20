@@ -12,3 +12,5 @@ window.addEventListener('load', message)
 popupClose.addEventListener('click', () => {
   popup.classList.remove('active')
 })
+
+console.log(popup);
